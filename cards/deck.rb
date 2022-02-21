@@ -34,7 +34,7 @@ req_art = data['art'].zip(data['type'])
 images = load_images(req_art, colors)
 
 def allSatisfying(data)
-  data.each_index.select{ |i| yield(data[i]) }
+  data.each_index.select { |i| yield(data[i]) }
 end
 
 Squib::Deck.new(cards: data['name'].size, layout: 'data.yml', dpi: 450) do

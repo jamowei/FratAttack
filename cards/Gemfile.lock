@@ -10,6 +10,7 @@ GEM
       glib2 (= 3.5.1)
     classy_hash (1.0.0)
     fiddle (1.1.0)
+    game_icons (0.45.0.20210930)
     gdk_pixbuf2 (3.5.1)
       gio2 (= 3.5.1)
     gio2 (3.5.1)
@@ -60,6 +61,7 @@ PLATFORMS
   x86_64-darwin-21
 
 DEPENDENCIES
+  game_icons
   squib
 
 BUNDLED WITH
