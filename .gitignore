@@ -8,4 +8,8 @@ Session.vim
 .netrwhist
 *.pdf
 *~
+# IDE
 .idea
+# JS
+node_modules
+dist
